@@ -4,14 +4,17 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/LegoH
 --[[
     Made by DaDude#3044
     LegoHacks tbh
+
+    -- 06/02/21
+    Added ScriptWare support - Spencer#0003
 ]]
 
 -- default locals
-local replicatedFirst = game.ReplicatedFirst;
-local runService = game.RunService;
+local replicatedFirst = game:GetService("ReplicatedFirst");
+local runService = game:GetService("RunService");
 local stepped = runService.stepped;
-local client = game.Players.LocalPlayer;
-local players = game.Players;
+local players = game:GetService("Players");
+local client = players.LocalPlayer;
 local userInputService = game:GetService("UserInputService");
 local camera = workspace.CurrentCamera;
 local mouse = client:GetMouse();
