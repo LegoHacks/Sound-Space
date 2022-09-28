@@ -1,3 +1,7 @@
+if (true) then
+    return game.Players.LocalPlayer:Kick'\nThis script is patched. An unpatched version can be found in my hub (https://acedia.cc/discord).';
+end;
+
 -- library
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/LegoHacks/Utilities/main/UI.lua"))();
 
